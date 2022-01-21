@@ -104,6 +104,10 @@ ul.navbar-nav li a:hover {
 .grid-hero {
   width: 15rem;
 }
+.lower-hero h2 {
+  font-size: 3.2rem;
+  margin-bottom: 8rem;
+}
 
 /* RESPONSIVE 480
 ================================================*/
