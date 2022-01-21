@@ -1,0 +1,130 @@
+/* giving some style to the design */
+
+/* Variables
+==============================================*/
+
+:root {
+  /* colors
+  ----------------------------*/
+  --primary-color: #c271ff;
+  --opacity-hover: 0.9;
+
+  /* Font
+  ----------------------------*/
+  --font-primary: Source Sans Pro;
+  --font-sm: 1.2rem;
+  --font-md: 1.6rem;
+}
+
+/* base
+==============================================*/
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--font-md);
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  font-size: 1.4rem;
+  border-radius: 2.2rem;
+  border: none;
+  width: 16.2rem;
+  height: 4.4rem;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: var(--primary-color);
+  opacity: var(--opacity-hover);
+  border: none;
+}
+
+/* Header
+==============================================*/
+
+/* Logo
+----------------------*/
+
+.logo-container {
+  width: 16.8rem;
+}
+
+.logo-face img {
+  width: 3rem;
+}
+
+.logo-letter img {
+  width: 11.1rem;
+}
+
+/* Navbar
+-----------------------*/
+ul.navbar-nav li {
+  font-size: var(--font-sm);
+}
+
+ul.navbar-nav li a:hover {
+  opacity: var(--opacity-hover);
+}
+
+.holberton_school-icon-menu {
+  font-size: 2rem;
+}
+
+/* SECTION hero
+==================================================*/
+.hero-bg {
+  margin-top: -7rem;
+  background-image: url("./images/pic_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.conatiner-hero {
+  padding: 22rem 0 9.8rem;
+}
+
+.big-title {
+  font-size: 12rem;
+}
+.s-letters {
+  width: 25%;
+}
+.bold-title {
+  color: var(--primary-color);
+}
+.lower-hero {
+  margin-top: 16rem;
+}
+.grid-hero {
+  width: 15rem;
+}
+
+/* RESPONSIVE 480
+================================================*/
+
+/*REsponsive logo
+---------------------------*/
+@media (max-width: 480px) {
+  .w-25 {
+    width: 100% !important;
+  }
+}
+/* RESPONSIVE 768
+================================================*/
+
+@media (max-width: 768px) {
+  /* HERO section
+  -------------------------------*/
+  .upper-hero .big-title {
+    font-size: 7.6rem;
+  }
+  .s-letters {
+    width: 50%;
+  }
+}
