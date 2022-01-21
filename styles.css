@@ -109,6 +109,17 @@ ul.navbar-nav li a:hover {
   margin-bottom: 8rem;
 }
 
+/* Carousel SECTION
+================================================*/
+.carousel-section, .carousel-item {
+  background: #c271ff;
+}
+.car-container {
+  padding: 10.8rem 0 12.4rem;
+}
+.car-conr {
+  margin-left: 18rem;
+}
 /* RESPONSIVE 480
 ================================================*/
 
