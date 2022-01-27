@@ -111,7 +111,8 @@ ul.navbar-nav li a:hover {
 
 /* Carousel SECTION
 ================================================*/
-.carousel-section, .carousel-item {
+.carousel-section,
+.carousel-item {
   background: #c271ff;
 }
 .car-container {
@@ -120,14 +121,15 @@ ul.navbar-nav li a:hover {
 .car-conr {
   margin-left: 18rem;
 }
-/* RESPONSIVE 480
+/* RESPONSIVE 576
 ================================================*/
 
 /*REsponsive logo
 ---------------------------*/
-@media (max-width: 480px) {
-  .w-25 {
-    width: 100% !important;
+@media (max-width: 576px) {
+  .hero-bg {
+    margin-top: -17rem;
+    background-position: -12rem;
   }
 }
 /* RESPONSIVE 768
