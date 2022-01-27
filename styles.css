@@ -115,21 +115,39 @@ ul.navbar-nav li a:hover {
 .carousel-item {
   background: #c271ff;
 }
-.car-container {
-  padding: 10.8rem 0 12.4rem;
+
+.carousel-item {
+  left: 79px;
+  top: 65px;
 }
-.car-conr {
-  margin-left: 18rem;
+
+.img-car {
+  margin-bottom: 12rem;
 }
-/* RESPONSIVE 576
+
+.info-car b {
+  font-size: 2rem;
+}
+
+/* RESPONSIVE 992
 ================================================*/
 
-/*REsponsive logo
----------------------------*/
-@media (max-width: 576px) {
-  .hero-bg {
-    margin-top: -17rem;
-    background-position: -12rem;
+@media (max-width: 992px) {
+  /*carousel
+  ---------------------------------------*/
+  .carousel-item {
+    left: 0;
+    top: 65px;
+  }
+  .img-car {
+    position: relative;
+    left: 181px;
+    top: 13px;
+  }
+  .info-car {
+    position: relative;
+    left: -43px;
+    top: -61px;
   }
 }
 /* RESPONSIVE 768
@@ -143,5 +161,34 @@ ul.navbar-nav li a:hover {
   }
   .s-letters {
     width: 50%;
+  }
+  /* carousel
+  -----------------------------------------*/
+  .carousel-item {
+    margin-left: 0 !important;
+  }
+  .img-car {
+    left: 117px;
+  }
+}
+
+/* RESPONSIVE 576
+================================================*/
+
+/*REsponsive logo
+---------------------------*/
+@media (max-width: 576px) {
+  .hero-bg {
+    margin-top: -17rem;
+    background-position: -12rem;
+  }
+  /* carousel
+  ------------------------------*/
+  .carousel-inner {
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .img-car {
+    left: 70px;
   }
 }
