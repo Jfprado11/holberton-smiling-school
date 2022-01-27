@@ -27,6 +27,11 @@ body {
   font-family: var(--font-primary);
   font-size: var(--font-md);
 }
+
+h2 {
+  font-size: 3.2rem;
+}
+
 .btn-primary {
   background-color: var(--primary-color);
   font-size: 1.4rem;
@@ -105,18 +110,17 @@ ul.navbar-nav li a:hover {
   width: 15rem;
 }
 .lower-hero h2 {
-  font-size: 3.2rem;
   margin-bottom: 8rem;
 }
 
 /* Carousel SECTION
 ================================================*/
 .carousel-section,
-.carousel-item {
+.car-inner-container .carousel-item {
   background: #c271ff;
 }
 
-.carousel-item {
+.car-inner-container .carousel-item {
   left: 79px;
   top: 65px;
 }
@@ -129,13 +133,53 @@ ul.navbar-nav li a:hover {
   font-size: 2rem;
 }
 
+/* Carousel Popular videos sectios
+================================================*/
+.popular-video-section h2 {
+  margin: 8.3rem 0 7rem;
+}
+
+.card {
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.card-body {
+  font-size: 1.4rem;
+}
+.card-text {
+  color: rgba(7, 22, 41, 0.5);
+}
+.card-bold-text {
+  color: var(--primary-color);
+}
+.img-video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img-video::before {
+  content: "";
+  width: 6.4rem;
+  height: 6.4rem;
+  position: absolute;
+  background-image: url("images/play.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.carousel-control-prev,
+.carousel-control-next {
+  width: 2rem;
+}
+
 /* RESPONSIVE 992
 ================================================*/
 
 @media (max-width: 992px) {
   /*carousel
   ---------------------------------------*/
-  .carousel-item {
+  .car-inner-container .carousel-item {
     left: 0;
     top: 65px;
   }
@@ -164,7 +208,7 @@ ul.navbar-nav li a:hover {
   }
   /* carousel
   -----------------------------------------*/
-  .carousel-item {
+  .car-inner-container .carousel-item {
     margin-left: 0 !important;
   }
   .img-car {
@@ -184,7 +228,7 @@ ul.navbar-nav li a:hover {
   }
   /* carousel
   ------------------------------*/
-  .carousel-inner {
+  .car-inner-container {
     padding-right: 0 !important;
     margin-left: 0 !important;
   }
