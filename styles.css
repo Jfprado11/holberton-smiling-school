@@ -34,6 +34,12 @@ h2 {
   font-size: 3.2rem;
 }
 
+small {
+  font-size: 1.2rem;
+  line-height: 15px;
+  mix-blend-mode: normal;
+  opacity: 0.35;
+}
 .btn-primary {
   background-color: var(--primary-color);
   font-size: 1.4rem;
@@ -186,6 +192,27 @@ ul.navbar-nav li a:hover {
 .membership-text {
   font-size: 1.4rem;
   text-align: center;
+}
+
+/* Lastest videos Sections
+=======================================*/
+.lastest-video-section h2 {
+  margin: 8.3rem 0 7rem;
+}
+
+/* Footer
+========================================*/
+footer {
+  background-color: var(--secondary-color);
+}
+
+.social-media-container a:hover,
+.social-media-container a:active {
+  text-decoration: none;
+}
+
+.media-logo {
+  font-size: 3rem;
 }
 
 /* RESPONSIVE 992
