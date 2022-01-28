@@ -57,6 +57,10 @@ small {
   border: none;
 }
 
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
 /* Header
 ==============================================*/
 
@@ -213,6 +217,34 @@ footer {
 
 .media-logo {
   font-size: 3rem;
+}
+/* Pricing
+===============================*/
+.body-pricing {
+  position: relative;
+}
+
+/* header / section hero
+========================*/
+.wrapper-header {
+  background-image: url("/images/pic_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.hero-pricing {
+  margin-top: 15rem;
+}
+.hero-pricing h1 {
+  font-size: 3.2rem;
+}
+
+.big-text {
+  font-size: 6rem;
+  margin: 7rem 0 0;
 }
 
 /* RESPONSIVE 992
