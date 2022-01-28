@@ -247,6 +247,17 @@ footer {
   margin: 7rem 0 0;
 }
 
+/* pricing grid
+-------------------------------------*/
+.text-price {
+  font-size: 4.4rem;
+}
+.check-icon {
+  color: #82d24f;
+  font-size: 2.8rem;
+  margin-left: 7rem;
+}
+
 /* RESPONSIVE 992
 ================================================*/
 
@@ -308,5 +319,13 @@ footer {
   }
   .img-car {
     left: 70px;
+  }
+  /*Pricing Table
+  --------------------------------*/
+  .buttons-price button {
+    width: 90%;
+  }
+  .check-icon {
+    margin-left: 2rem;
   }
 }
