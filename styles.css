@@ -7,6 +7,8 @@
   /* colors
   ----------------------------*/
   --primary-color: #c271ff;
+  --secondary-color: #071629;
+
   --opacity-hover: 0.9;
 
   /* Font
@@ -171,6 +173,19 @@ ul.navbar-nav li a:hover {
 .carousel-control-prev,
 .carousel-control-next {
   width: 2rem;
+}
+
+/* Membership Section
+================================*/
+.membership-section {
+  background-color: var(--secondary-color);
+}
+.membership-section h2 {
+  margin: 5rem 0 5.8rem;
+}
+.membership-text {
+  font-size: 1.4rem;
+  text-align: center;
 }
 
 /* RESPONSIVE 992
