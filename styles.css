@@ -221,7 +221,11 @@ footer {
 /* Pricing
 ===============================*/
 .body-pricing {
-  position: relative;
+  margin: -3.5rem 0 0;
+}
+
+.body-pricing header {
+  padding: 3rem 0 0;
 }
 
 /* header / section hero
@@ -230,10 +234,6 @@ footer {
   background-image: url("/images/pic_2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
 }
 .hero-pricing {
   margin-top: 15rem;
@@ -245,6 +245,10 @@ footer {
 .big-text {
   font-size: 6rem;
   margin: 7rem 0 0;
+}
+
+.container-2 {
+  position: absolute;
 }
 
 /* pricing grid
