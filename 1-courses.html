@@ -80,30 +80,32 @@
             <div class="row">
               <div class="col-12 col-md-4">
                 <label class="font-weight-bold text-white" for="search">KEYWORDS</label>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text holberton_school-icon-search_1"></span>
+                <div class="input-group border-bottom border-white">
+                  <div class="icon-container d-flex justify-content-center align-items-center">
+                    <span class="holberton_school-icon-search_1 text-white icon-search p-3"></span>
                   </div>
-                  <input type="text" class="form-control p-4" />
+                  <input type="text" class="form-control p-3" placeholder="Search by keywords" />
                 </div>
               </div>
               <div class="col-12 col-sm-6 col-md-4">
                 <label class="font-weight-bold text-white" for="topic">TOPIC</label>
-                <select class="custom-select p-4" id="topic">
-                  <option selected>Open this select menu</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+                <div class="border-bottom border-white">
+                  <select class="custom-select p-3" id="topic">
+                    <option value="Novice" selected>Novice</option>
+                    <option value="intermidiate">Intermidiate</option>
+                    <option value="expert">Expert</option>
+                  </select>
+                </div>
               </div>
               <div class="col-12 col-sm-6 col-md-4">
                 <label class="font-weight-bold text-white" for="sort">SORT BY</label>
-                <select class="custom-select p-4" id="sort">
-                  <option selected>Open this select menu</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
-                </select>
+                <div class="border-bottom border-white">
+                  <select class="custom-select p-3" id="sort">
+                    <option value="mostPopular" selected>Most Popular</option>
+                    <option value="mostRecent">Most Recent</option>
+                    <option value="mostViewed">Most Viewed</option>
+                  </select>
+                </div>
               </div>
             </div>
           </form>

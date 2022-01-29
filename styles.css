@@ -291,7 +291,29 @@ footer {
 }
 
 .form-section input {
-  background-blend-mode: multiply;
+  opacity: 0.25;
+  border-radius: 3px 3px 0px 0px;
+  height: 51px;
+  font-size: 2.3rem;
+}
+.icon-container {
+  background-color: #ffffff;
+  opacity: 0.25;
+}
+.icon-search {
+  color: grey !important;
+  font-size: 2rem;
+}
+option:hover {
+  color: #c271ff;
+}
+
+.custom-select {
+  appearance: none;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+  height: 51px;
+  font-size: 2.3rem;
 }
 
 /* RESPONSIVE 992
