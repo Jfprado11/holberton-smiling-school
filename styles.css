@@ -152,7 +152,7 @@ ul.navbar-nav li a:hover {
 }
 
 .card {
-  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  /* box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18); */
   border: none;
   border-radius: 0;
 }
@@ -314,6 +314,18 @@ option:hover {
   opacity: 0.25;
   height: 51px;
   font-size: 2.3rem;
+}
+.inputs-borders {
+  border-color: rgba(255, 255, 255, 0.55) !important;
+}
+
+/* Grid of videos
+------------------------------------------*/
+.videos-number {
+  font-size: 1.6rem;
+  line-height: 20px;
+  color: rgba(7, 22, 41, 0.296247);
+  
 }
 
 /* RESPONSIVE 992
