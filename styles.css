@@ -267,6 +267,33 @@ footer {
 .text-FAQ {
   color: rgba(7, 22, 41, 0.5016);
 }
+/* COurses page
+========================================*/
+.wrapper-header-courses {
+  background-image: url("/images/pic_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-courses-sect h1 {
+  font-size: 3.2rem;
+}
+
+/* form-section
+---------------------------------*/
+
+.form-section {
+  background: rgba(194, 113, 255, 1);
+}
+
+.form-section label {
+  font-size: 1.2rem;
+  line-height: 15.08px;
+}
+
+.form-section input {
+  background-blend-mode: multiply;
+}
+
 /* RESPONSIVE 992
 ================================================*/
 
